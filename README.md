@@ -61,25 +61,25 @@ Sample Input
   <tr>
 <th>yyyy</th>    <th>month</th>   <th>tmax</th>    <th>tmin</th></tr>
 <tr>
-    <td>1908    January 5.0 -1.4</td>
+    <td>1908</td><td>    January</td><td> 5.0 </td><td>-1.4</td>
   </tr>
 <tr>
-    <td>1908    February    7.3 1.9</td>
+    <td>1908</td><td>    February</td><td>    7.3</td><td> 1.9</td>
   </tr>
 <tr>
-    <td>1908    March   6.2 0.3</td>
+    <td>1908</td><td>    Marc</td><td>h   6.2</td><td> 0.3</td>
   </tr>
 <tr>
-    <td>1908    April   Missing_1   2.1</td>
+    <td>1908</td><td>    April</td><td>   Missing_1</td><td>   2.1</td>
   </tr>
 <tr>
-    <td>1908    May Missing_2   7.7</td>
+    <td>1908</td><td>    May</td><td> Missing_2 </td><td>  7.7</td>
   </tr>
 <tr>
-    <td>1908    June    17.7    8.7</td>
+    <td>1908</td><td>    June</td><td>    17.7</td><td>    8.7</td>
   </tr>
 <tr>
-    <td>1908    July    Missing_3   11.0</td>
+    <td>1908</td><td>    July</td><td>    Missing_3</td><td>   11.0</td>
   </tr>
 </table>
 The above test case is for explanatory purposes only, which is why we included only  lines.
