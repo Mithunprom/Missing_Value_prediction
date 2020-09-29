@@ -50,37 +50,38 @@ Output Format
 Print each missing value on a new line.
 <p1>
 </p1>
-
-Sample Input
 <p1>
+Sample Input
 </p1>
 <p1>
 20
  </p1>
 <p1>
-
-yyyy    month   tmax    tmin
-1908    January 5.0 -1.4
-1908    February    7.3 1.9
-1908    March   6.2 0.3
-1908    April   Missing_1   2.1
-1908    May Missing_2   7.7
-1908    June    17.7    8.7
-1908    July    Missing_3   11.0
-1908    August  17.5    9.7
-1908    September   16.3    8.4
-1908    October 14.6    8.0
-1908    November    9.6 3.4
-1908    December    5.8 Missing_4
-1909    January 5.0 0.1
-1909    February    5.5 -0.3
-1909    March   5.6 -0.3
-1909    April   12.2    3.3
-1909    May 14.7    4.8
-1909    June    15.0    7.5
-1909    July    17.3    10.8
-1909    August  18.8    10.7  
-</p1>
+<table style="width:100%">
+  <tr>
+<th>yyyy</th>    <th>month</th>   <th>tmax</th>    <th>tmin</th></tr>
+<tr>
+    <td>1908    January 5.0 -1.4</td>
+  </tr>
+<tr>
+    <td>1908    February    7.3 1.9</td>
+  </tr>
+<tr>
+    <td>1908    March   6.2 0.3</td>
+  </tr>
+<tr>
+    <td>1908    April   Missing_1   2.1</td>
+  </tr>
+<tr>
+    <td>1908    May Missing_2   7.7</td>
+  </tr>
+<tr>
+    <td>1908    June    17.7    8.7</td>
+  </tr>
+<tr>
+    <td>1908    July    Missing_3   11.0</td>
+  </tr>
+</table>
 The above test case is for explanatory purposes only, which is why we included only  lines.
 The sample test case, which is run upon hitting , has  rows of data.
 The hidden test case, which is used at the time of submission, has over  rows of data. The sample test case rows are a subset of it.
@@ -88,10 +89,18 @@ The hidden test case, which is used at the time of submission, has over  rows of
 Sample Output
 </p1>
 The four missing values (, , , and ) are:
-<p1>
-8.6
-15.8
-18.9
-0.0    
- </p1>
+<table style="width:100%">
+<tr>
+    <td>8.6</td>
+  </tr>
+<tr>
+    <td>15.8</td>
+  </tr>
+<tr>
+    <td>18.9</td>
+  </tr>
+<tr>
+    <td>0.0    </td>
+  </tr>
+</table>
 Your task is to predict values as close as possible to these.
