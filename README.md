@@ -106,6 +106,6 @@ The four missing values (, , , and ) are:
 Your task is to predict values as close as possible to these.
  
  <h2> Instruction</h2>
- This can be done by Machine Learning prediction problem. Where we split the data from missing and non-missing and then we run the model on the non-missing dataset. After that we can predict on the missing data. For this two parallel ML models are needed. One for predicitng tmax and another for predicting tmin. The <a href="Missig_values_code">Python File</a> contains the code. And the dataset is given <a href="df.csv">here</a>. 
+ This can be done by Machine Learning prediction problem. Where we split the data from missing and non-missing and then we run the model on the non-missing dataset. After that we can predict on the missing data. For this two parallel ML models are needed. One for predicitng tmax and another for predicting tmin. The <a href="Missing_values_code">Python File</a> contains the code. And the dataset is given <a href="df.csv">here</a>. 
  
  
